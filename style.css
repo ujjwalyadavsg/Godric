@@ -1,0 +1,114 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+html{scroll-behavior: smooth;}
+
+body{
+	background-color: black;
+	font-size: 32px;
+}
+
+.topnav {
+	position: sticky;
+	top: 0;
+	background-color:black;
+  	overflow: hidden;
+}
+
+.topnav-right li{
+	list-style: none;
+	display: inline;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 20px 0px 20px 0px;
+  transition: 0.5s ease;
+  transform: scale(1.2);
+}
+.topnav a.active:hover {
+	background-color: black;
+	transform: scale(1);
+  }
+
+.topnav-right {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+}
+
+#home{
+	color: white;
+	height: relative;
+	line-height: 1.5em;
+	padding: 20px 15px;
+	background-image: url("../assets/lightscape-Eeaf2izntuM-unsplash.jpg");
+	background-size: cover;
+	height: 100%;
+	width: auto;
+	padding-top: 300px;
+	padding-bottom: 150px;
+}
+
+#services{
+	color: white;
+	height: relative;
+	line-height: 1.5em;
+	padding: 20px 15px;
+  	background-image:url("../assets/pink_flowers_macos_mojave_black_background_girly_stock_5120x2880.jpg");
+	background-size: cover;
+	height: 100%;
+	width: auto;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+button{
+	height: 40px;
+	font-size: 16px;
+	padding: 6px 18px;
+	margin: 10px;
+	border: 1px solid white;
+	border-radius: 30px;
+	border-color: white;
+	color: white;
+	background-color: transparent;
+	
+}
+button:hover{
+		color: white;
+		text-decoration: underline;
+		transition: 0.5s ease;
+		transform: scale(1.1);
+}
+
+#aboutus{
+	color: white;
+	height: relative;
+	line-height: 1.5em;
+	padding: 20px 15px;
+  	background-image:url("../assets/k.jpg");
+	background-size: cover;
+	height: 100%;
+	width: auto;
+	padding-top: 150px;
+	
+}
