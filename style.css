@@ -60,7 +60,7 @@ body{
 	height: relative;
 	line-height: 1.5em;
 	padding: 20px 15px;
-	background-image: url("../assets/lightscape-Eeaf2izntuM-unsplash.jpg");
+	background-image: url("assets/lightscape-Eeaf2izntuM-unsplash.jpg");
 	background-size: cover;
 	height: 100%;
 	width: auto;
@@ -73,7 +73,7 @@ body{
 	height: relative;
 	line-height: 1.5em;
 	padding: 20px 15px;
-  	background-image:url("../assets/pink_flowers_macos_mojave_black_background_girly_stock_5120x2880.jpg");
+  	background-image:url("assets/pink_flowers_macos_mojave_black_background_girly_stock_5120x2880.jpg");
 	background-size: cover;
 	height: 100%;
 	width: auto;
@@ -105,7 +105,7 @@ button:hover{
 	height: relative;
 	line-height: 1.5em;
 	padding: 20px 15px;
-  	background-image:url("../assets/k.jpg");
+  	background-image:url("assets/k.jpg");
 	background-size: cover;
 	height: 100%;
 	width: auto;
